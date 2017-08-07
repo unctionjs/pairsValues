@@ -1,7 +1,7 @@
 {
-  "name": "@unction/template",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@unction/pairsvalues",
+  "version": "1.0.4",
+  "description": "Takes an array of arrays (pairs) and returns the values",
   "keywords": [
     "unction",
     "functional"

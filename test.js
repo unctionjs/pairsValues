@@ -1,13 +1,15 @@
 /* eslint-disable flowtype/require-parameter-type, flowtype/require-return-type */
 import {test} from "tap"
 
-import tempLate from "./"
+import pairsValues from "./"
 
 test(({same, end}) => {
   same(
-    tempLate(true),
-    false
+    pairsValues([
+      ["a", "b"],
+      ["c", "d"],
+    ]),
+    ["b", "d"]
   )
-
   end()
 })
