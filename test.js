@@ -1,7 +1,7 @@
 /* eslint-disable flowtype/require-return-type */
-import {test} from "tap"
+import {test} from "tap";
 
-import pairsValues from "./index"
+import pairsValues from "./index";
 
 test(({same, end}) => {
   same(
@@ -10,6 +10,6 @@ test(({same, end}) => {
       ["c", "d"],
     ]),
     ["b", "d"]
-  )
-  end()
-})
+  );
+  end();
+});
