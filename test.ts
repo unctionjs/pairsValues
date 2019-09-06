@@ -1,5 +1,5 @@
 
-import pairsValues from "./index.ts";
+import pairsValues from "./index";
 
 test(() => {
   expect(pairsValues([
