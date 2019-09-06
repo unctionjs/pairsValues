@@ -1,7 +1,7 @@
 
 import pairsValues from "./index";
 
-test(() => {
+test("works", () => {
   expect(pairsValues([
     ["a", "b"],
     ["c", "d"],
