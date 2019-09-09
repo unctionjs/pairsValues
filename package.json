@@ -53,8 +53,8 @@
     "typescript": "3.5.1"
   },
   "dependencies": {
-    "@unction/last": "11.9.0",
-    "@unction/mapvalues": "10.9.0"
+    "@unction/last": "11.9.1",
+    "@unction/mapvalues": "10.10.0"
   },
   "files": [
     "index.ts",
