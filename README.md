@@ -4,7 +4,7 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> ListType<[A, B]> => ListType<B>
+> ListType<[A, B]> => Array<B> | Set<B>
 
 Takes an list that has pairs (key, values) and returns all the values.
 
