@@ -67,6 +67,6 @@
   },
   "dependencies": {
     "@unction/last": "^11.13.0",
-    "@unction/mapvalues": "^10.12.0"
+    "@unction/mapvalues": "^10.13.0"
   }
 }
